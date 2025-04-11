@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col w-full gap-x-1.5 items-center py-10 max-sm:gap-x-0.5">
+    <div class="flex flex-col w-full gap-x-1.5 items-center py-2 max-sm:gap-x-0.5">
       <div class="my-3 flex flex-row justify-around w-full max-sm:flex-col">
         <div class="flex flex-row justify-center gap-x-5 items-center w-3/4 max-sm:gap-x-1 max-sm:w-full max-sm:text-xs">
           <button @click="type = 1" :class="type === 1 ? 'font-bold' : 'no-underline'">
